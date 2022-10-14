@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>NikitaPershin</title>
+    </head>
+
+    <body>
+        <div>
+            <h2>Ссылки</h2>
+            <ol>
+                <li><a href="http://example.com">абсолютную гиперссылку на главную страницу сайта example.com</a></li>
+                <li><a href="https://example.com/">https://example.com</a></li>
+                <li><a href="ftp://example.com/Temp/file.txt">ссылка на файл на сервере FTP без авторизации</a></li>
+                <li><a href="ftp://example.com/Temp/file.txt:p:123456q">ссылку на файл на сервере FTP с авторизацией</a></li>
+                <li><a href="https://github.com/MrMacskey/NikitaPershin.github.io/edit/main/index.html">ссылку на фрагмент страницы некоторого сайта</a></li>
+                <li><a href="index.html/void">ссылку на фрагмент текущей страницы</a></li>
+                <li><a href="https://www.google.com/search?q=поиск+гугл&oq=поиск+гугл">ссылку с двумя параметрами в URL</a></li>
+                <li>список ссылок основной навигации сайта с подписями title;</li>
+                <li><a href="#one" title="Первая ссылка">Первая</a>
+                <a href="#two" title="Вторая ссылка">Вторая</a>
+                <a href="#tab/one" title="Третья ссылка">Третья</a></li>
+                <li><a>без href http://example.com</a></li>
+                <li><a href="">Пустой href</a></li>
+                <li><a href="https://example.com" rel="nofollow">ссылка, по которой запрещен переход</a></lip>
+                <li><noindex>запрещена индексация </noindex></li>
+                <li>Си́ла — физическая <a target="_blank" href="https://ru.wikipedia.org/wiki/Векторная_величина">векторная величина</a> , являющаяся мерой воздействия на данное тело</li>
+                <li>IMG:</li>
+                <map>
+                <img src="https://resizer.mail.ru/p/49317597-5778-55f4-b0f6-96d03e1d6280/AQAXBO-LkDgwrMajY-YN0F5IPNcHfyNyv1J-0jqWCuzINKNg5aoLny7upWvSOJvmjZ9eTwYkFzHRHgL8iR09BZTGImg.jpg" width="320" height="210" usemap="" />
+                <map name="ginco">
+                <li><a href="https://index.html:1">относительную на страницу в текущем каталоге</a></li>
+                <li><a href="https://index.html/about/2">относительную на страницу в каталоге about</a></li>
+                <li><a href="https://index.html/first">относительную на страницу в каталоге уровнем выше текущего </a></li>
+                <li><a href="https://index.html/first/second">относительную на страницу в каталоге двумя уровнями выше </a> </li>
+                <li><a href="/">сокращенную на главную</a></li>
+                <li> <a href="/asd">сокращенную ссылку на внутреннюю</a></li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>ФОРМА</h2>
+
+            <form action="" method="POST">
+                <label>
+                Имя:<br />
+                <input name="field-name-1"
+                value="" />
+                </label><br />
+
+                <label>
+                e-mail:<br />
+                <input name="field-email"
+                type="email"
+                placeholder="Введите вашу почту" />
+                </label><br />
+
+                <label>
+                Дата рождения:<br />
+                <input name="field-date"
+                value="2022-09-12"
+                type="date" />
+                </label><br />
+
+                <label>
+                Пол:<br />
+                <select name="field-name-3">
+                <option value="Значение1">Мужской</option>
+                <option value="Значение2" selected="selected">Женский</option>
+                </select>
+                </label><br />
+                
+
+                <label>
+                Сверхспособности:
+                <br />
+                <select name="field-name-4[]"
+                multiple="multiple">
+                <option value="Значение1">бессмертиe</option>
+                <option value="Значение2" selected="selected"> прохождение сквозь стены</option>
+                <option value="Значение3" selected="selected"> левитация</option>
+                </select>
+                </label><br />
+
+            Число конечносткй:<br />
+                <label><input type="radio" checked="checked"
+                name="radio-group-1" value="Значение1" />
+                1</label>
+                <label><input type="radio"
+                name="radio-group-1" value="Значение2" />
+                2</label>
+                <label><input type="radio"
+                name="radio-group-1" value="Значение3" />
+                3</label>
+                <label><input type="radio"
+                name="radio-group-1" value="Значение2" />
+                4</label>
+                <label><input type="radio"
+                name="radio-group-1" value="Значение2" />
+                5+</label><br />
+
+                Узнали? Согласны?:<br />
+                <label><input type="checkbox" checked="checked"
+                name="check-1" />
+                Подпись</label><br />
+
+            
+                <input type="submit" value="Отправить" />
+            </form>
+        </div>
+
+
+    </body>
+
+</html>
