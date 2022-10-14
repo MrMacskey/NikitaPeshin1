@@ -23,13 +23,17 @@
                 <a href="#tab/one" title="Третья ссылка">Третья</a></li>
                 <li><a>без href http://example.com</a></li>
                 <li><a href="">Пустой href</a></li>
-                <li><a href="https://example.com" rel="nofollow">ссылка, по которой запрещен переход</a></lip>
-                <li><noindex>запрещена индексация </noindex></li>
+                <li><a href="https://example.com" rel="nofollow">ссылка, по которой запрещен переход</a></li>
+                <li><!--noindex-->запрещена индексация <!--noindex--></li>
                 <li>Си́ла — физическая <a target="_blank" href="https://ru.wikipedia.org/wiki/Векторная_величина">векторная величина</a> , являющаяся мерой воздействия на данное тело</li>
-                <li>IMG:</li>
-                <map>
-                <img src="https://resizer.mail.ru/p/49317597-5778-55f4-b0f6-96d03e1d6280/AQAXBO-LkDgwrMajY-YN0F5IPNcHfyNyv1J-0jqWCuzINKNg5aoLny7upWvSOJvmjZ9eTwYkFzHRHgL8iR09BZTGImg.jpg" width="320" height="210" usemap="" />
-                <map name="ginco">
+                <li>IMG:
+                <img src="https://resizer.mail.ru/p/49317597-5778-55f4-b0f6-96d03e1d6280/AQAXBO-LkDgwrMajY-YN0F5IPNcHfyNyv1J-0jqWCuzINKNg5aoLny7upWvSOJvmjZ9eTwYkFzHRHgL8iR09BZTGImg.jpg" width="320" height="210" title="example" />
+                </li>
+                <li>
+                    <map>
+                        <area shape="circle" coords="120,30,200" alt="1" href="https://example.ru">       
+                    </map>
+                </li>
                 <li><a href="https://index.html:1">относительную на страницу в текущем каталоге</a></li>
                 <li><a href="https://index.html/about/2">относительную на страницу в каталоге about</a></li>
                 <li><a href="https://index.html/first">относительную на страницу в каталоге уровнем выше текущего </a></li>
